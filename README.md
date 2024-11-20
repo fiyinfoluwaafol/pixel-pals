@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# PixelPals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**PixelPals** is a real-time multiplayer drawing and guessing game where players create and guess custom word lists. The game includes features like hints, leaderboards, and multilingual support, providing a fun and engaging experience for players on both desktop and mobile devices.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+### Features
+- **Custom Word Lists**: Players can create, view, edit, and delete custom word lists for gameplay.
+- **Real-Time Drawing and Guessing**: Live interaction via a drawing canvas and guessing area.
+- **Hints and Progressive Reveal**: Players can request hints to reveal letters of the word.
+- **Leaderboard**: Tracks and displays top scores in real time.
+- **Multilingual Support**: Translates word lists to a user’s preferred language using Google Translate API.
+- **Mobile-Responsive Design**: Optimized for desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
+Ensure you have the following installed on your machine:
+- **Node.js**: Download and install the latest LTS version from [nodejs.org](https://nodejs.org).
+- **npm**: Comes with Node.js installation.
+- **Git**: Install Git from [git-scm.com](https://git-scm.com/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/fiyinfoluwaafol/pixel-pals.git
+   ```
+2. **Navigate to the frontend directory**:
+   ```bash
+   cd pixel-pals/frontend
+   ```
+3. **Install dependencies**:
+    ```
+    npm install
+    ```
+4. **Start the development server**:
+    ```
+    npm start
+    ```
+The application will be available at `http://localhost:3000` in your browser.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+ScribbleScape/
+├── frontend/      # React app files
+│   ├── src/       # React components and logic
+│   ├── public/    # Static assets
+│   └── package.json # Frontend dependencies
+├── backend/       # Backend logic
+├── docs/          # Documentation files
+└── README.md      # Project overview
+```
